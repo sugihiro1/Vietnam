@@ -1,0 +1,6 @@
+Platform : iOS, "10.0"
+use_frameworks!
+
+Target 'Vietnam' do
+
+End
