@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="D56-Rm-3Vb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,9 +22,116 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UZ0-Ot-0Oa">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="UNf-Nh-Ael">
+                            <connections>
+                                <segue destination="DxJ-Xl-gMA" kind="show" id="i7d-1I-f1a"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="535" y="112"/>
+        </scene>
+        <!--Search Word-->
+        <scene sceneID="Ufu-28-Kfm">
+            <objects>
+                <viewController id="DxJ-Xl-gMA" customClass="SearchWord" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TmX-Cu-iWK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y5s-cn-jao"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0xJ-e5-EzH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7u-Np-wXf">
+                                <rect key="frame" x="137" y="317" width="100" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="eP6-28-3Ke"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="検索"/>
+                                <connections>
+                                    <action selector="searchWord:" destination="DxJ-Xl-gMA" eventType="touchUpInside" id="q3U-Ae-CqN"/>
+                                    <segue destination="076-ir-iMw" kind="show" id="F9a-D8-52T"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="🇯🇵 🇻🇳(Unicode)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAq-Mh-iVl">
+                                <rect key="frame" x="123" y="134" width="128.5" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="Epu-mO-ggd"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="🇻🇳(Windows)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Df5-0b-EJZ">
+                                <rect key="frame" x="124.5" y="217" width="125" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="nnr-HB-Dr1"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q7u-Np-wXf" firstAttribute="centerX" secondItem="GAq-Mh-iVl" secondAttribute="centerX" id="DDw-Xq-7YY"/>
+                            <constraint firstItem="q7u-Np-wXf" firstAttribute="centerY" secondItem="0xJ-e5-EzH" secondAttribute="centerY" id="DMS-AV-t9W"/>
+                            <constraint firstItem="GAq-Mh-iVl" firstAttribute="top" secondItem="TmX-Cu-iWK" secondAttribute="bottom" constant="70" id="IbT-kt-68x"/>
+                            <constraint firstItem="q7u-Np-wXf" firstAttribute="top" secondItem="Df5-0b-EJZ" secondAttribute="bottom" constant="70" id="V3H-oq-rH3"/>
+                            <constraint firstItem="q7u-Np-wXf" firstAttribute="centerX" secondItem="0xJ-e5-EzH" secondAttribute="centerX" id="hYO-yb-ZLS"/>
+                            <constraint firstItem="Df5-0b-EJZ" firstAttribute="top" secondItem="GAq-Mh-iVl" secondAttribute="bottom" constant="50" id="qiL-wS-x4h"/>
+                            <constraint firstItem="Df5-0b-EJZ" firstAttribute="centerX" secondItem="GAq-Mh-iVl" secondAttribute="centerX" id="tCF-r8-NHw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchWordUnicode" destination="GAq-Mh-iVl" id="Aut-Kf-4ny"/>
+                        <outlet property="searchWordWindows" destination="Df5-0b-EJZ" id="kih-Eq-bqe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGc-AI-fq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1220" y="111.99400299850076"/>
+        </scene>
+        <!--Search Result-->
+        <scene sceneID="9MV-qR-Wl6">
+            <objects>
+                <viewController id="076-ir-iMw" customClass="SearchResult" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0UF-EQ-F2A"/>
+                        <viewControllerLayoutGuide type="bottom" id="KkP-VX-glO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BV3-P2-EMI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ny4-hH-AeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="117"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FNw-Nx-XeI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D56-Rm-3Vb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UqN-Wj-K9I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rrB-Kd-i5v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QwA-K9-cl7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170.40000000000001" y="111.99400299850076"/>
         </scene>
     </scenes>
 </document>

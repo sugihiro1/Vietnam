@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68476FE7FDF8A3F3C61753B6 /* Pods_Vietnam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C742A847226C1B2DCAA4F4E /* Pods_Vietnam.framework */; };
 		9B19F3EF1F7CE1F3003B2807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F3EE1F7CE1F3003B2807 /* AppDelegate.swift */; };
 		9B19F3F11F7CE1F3003B2807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F3F01F7CE1F3003B2807 /* ViewController.swift */; };
 		9B19F3F41F7CE1F3003B2807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F3F21F7CE1F3003B2807 /* Main.storyboard */; };
 		9B19F3F61F7CE1F3003B2807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F3F51F7CE1F3003B2807 /* Assets.xcassets */; };
 		9B19F3F91F7CE1F3003B2807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F3F71F7CE1F3003B2807 /* LaunchScreen.storyboard */; };
+		9B19F4211F7D2009003B2807 /* wordsmenu2bodyMobile.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4201F7D2009003B2807 /* wordsmenu2bodyMobile.htm */; };
+		9B19F4231F7D22B9003B2807 /* a.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4221F7D22B9003B2807 /* a.htm */; };
+		9B19F4291F7D2470003B2807 /* ac.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4241F7D2470003B2807 /* ac.htm */; };
+		9B19F42A1F7D2470003B2807 /* ai.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4251F7D2470003B2807 /* ai.htm */; };
+		9B19F42B1F7D2470003B2807 /* am.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4261F7D2470003B2807 /* am.htm */; };
+		9B19F42C1F7D2470003B2807 /* an.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4271F7D2470003B2807 /* an.htm */; };
+		9B19F42D1F7D2470003B2807 /* anh.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B19F4281F7D2470003B2807 /* anh.htm */; };
+		9B19F42F1F7D2933003B2807 /* SearchWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F42E1F7D2933003B2807 /* SearchWord.swift */; };
+		9B19F4311F7D299F003B2807 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19F4301F7D299F003B2807 /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C742A847226C1B2DCAA4F4E /* Pods_Vietnam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vietnam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE812519AC434D13980C0CC /* Pods-Vietnam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vietnam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vietnam/Pods-Vietnam.release.xcconfig"; sourceTree = "<group>"; };
+		911F79D780C18899CEACC0C9 /* Pods-Vietnam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vietnam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vietnam/Pods-Vietnam.debug.xcconfig"; sourceTree = "<group>"; };
 		9B19F3EB1F7CE1F3003B2807 /* Vietnam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vietnam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B19F3EE1F7CE1F3003B2807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B19F3F01F7CE1F3003B2807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		9B19F3F51F7CE1F3003B2807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B19F3F81F7CE1F3003B2807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B19F3FA1F7CE1F3003B2807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B19F4201F7D2009003B2807 /* wordsmenu2bodyMobile.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wordsmenu2bodyMobile.htm; sourceTree = "<group>"; };
+		9B19F4221F7D22B9003B2807 /* a.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = a.htm; sourceTree = "<group>"; };
+		9B19F4241F7D2470003B2807 /* ac.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ac.htm; sourceTree = "<group>"; };
+		9B19F4251F7D2470003B2807 /* ai.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ai.htm; sourceTree = "<group>"; };
+		9B19F4261F7D2470003B2807 /* am.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = am.htm; sourceTree = "<group>"; };
+		9B19F4271F7D2470003B2807 /* an.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = an.htm; sourceTree = "<group>"; };
+		9B19F4281F7D2470003B2807 /* anh.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = anh.htm; sourceTree = "<group>"; };
+		9B19F42E1F7D2933003B2807 /* SearchWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchWord.swift; sourceTree = "<group>"; };
+		9B19F4301F7D299F003B2807 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68476FE7FDF8A3F3C61753B6 /* Pods_Vietnam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132EABFE27A023091D5147C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C742A847226C1B2DCAA4F4E /* Pods_Vietnam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E607DFB7706DF2D4306629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911F79D780C18899CEACC0C9 /* Pods-Vietnam.debug.xcconfig */,
+				8FE812519AC434D13980C0CC /* Pods-Vietnam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B19F3E21F7CE1F3003B2807 = {
 			isa = PBXGroup;
 			children = (
 				9B19F3ED1F7CE1F3003B2807 /* Vietnam */,
+				9B939C4A1F7FC7FD004E0EAF /* New Group */,
 				9B19F3EC1F7CE1F3003B2807 /* Products */,
+				84E607DFB7706DF2D4306629 /* Pods */,
+				132EABFE27A023091D5147C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,10 +100,27 @@
 				9B19F3EE1F7CE1F3003B2807 /* AppDelegate.swift */,
 				9B19F3F01F7CE1F3003B2807 /* ViewController.swift */,
 				9B19F3F21F7CE1F3003B2807 /* Main.storyboard */,
+				9B19F42E1F7D2933003B2807 /* SearchWord.swift */,
+				9B19F4301F7D299F003B2807 /* SearchResult.swift */,
 				9B19F3F51F7CE1F3003B2807 /* Assets.xcassets */,
 				9B19F3F71F7CE1F3003B2807 /* LaunchScreen.storyboard */,
 				9B19F3FA1F7CE1F3003B2807 /* Info.plist */,
 			);
+			path = Vietnam;
+			sourceTree = "<group>";
+		};
+		9B939C4A1F7FC7FD004E0EAF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9B19F4201F7D2009003B2807 /* wordsmenu2bodyMobile.htm */,
+				9B19F4221F7D22B9003B2807 /* a.htm */,
+				9B19F4241F7D2470003B2807 /* ac.htm */,
+				9B19F4251F7D2470003B2807 /* ai.htm */,
+				9B19F4261F7D2470003B2807 /* am.htm */,
+				9B19F4271F7D2470003B2807 /* an.htm */,
+				9B19F4281F7D2470003B2807 /* anh.htm */,
+			);
+			name = "New Group";
 			path = Vietnam;
 			sourceTree = "<group>";
 		};
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B19F3FD1F7CE1F3003B2807 /* Build configuration list for PBXNativeTarget "Vietnam" */;
 			buildPhases = (
+				270477A2079F1E7E0C261970 /* [CP] Check Pods Manifest.lock */,
 				9B19F3E71F7CE1F3003B2807 /* Sources */,
 				9B19F3E81F7CE1F3003B2807 /* Frameworks */,
 				9B19F3E91F7CE1F3003B2807 /* Resources */,
+				FAFF0BADADF5C8CA3EAE6D7E /* [CP] Embed Pods Frameworks */,
+				883E55918F3B6D3D309CF696 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +187,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B19F42A1F7D2470003B2807 /* ai.htm in Resources */,
 				9B19F3F91F7CE1F3003B2807 /* LaunchScreen.storyboard in Resources */,
+				9B19F4291F7D2470003B2807 /* ac.htm in Resources */,
+				9B19F42D1F7D2470003B2807 /* anh.htm in Resources */,
+				9B19F42B1F7D2470003B2807 /* am.htm in Resources */,
+				9B19F4231F7D22B9003B2807 /* a.htm in Resources */,
+				9B19F42C1F7D2470003B2807 /* an.htm in Resources */,
 				9B19F3F61F7CE1F3003B2807 /* Assets.xcassets in Resources */,
 				9B19F3F41F7CE1F3003B2807 /* Main.storyboard in Resources */,
+				9B19F4211F7D2009003B2807 /* wordsmenu2bodyMobile.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		270477A2079F1E7E0C261970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		883E55918F3B6D3D309CF696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vietnam/Pods-Vietnam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFF0BADADF5C8CA3EAE6D7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vietnam/Pods-Vietnam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B19F3E71F7CE1F3003B2807 /* Sources */ = {
@@ -138,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B19F3F11F7CE1F3003B2807 /* ViewController.swift in Sources */,
+				9B19F42F1F7D2933003B2807 /* SearchWord.swift in Sources */,
+				9B19F4311F7D299F003B2807 /* SearchResult.swift in Sources */,
 				9B19F3EF1F7CE1F3003B2807 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +379,7 @@
 		};
 		9B19F3FE1F7CE1F3003B2807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911F79D780C18899CEACC0C9 /* Pods-Vietnam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KQL9843SH4;
@@ -272,6 +393,7 @@
 		};
 		9B19F3FF1F7CE1F3003B2807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE812519AC434D13980C0CC /* Pods-Vietnam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KQL9843SH4;
@@ -302,6 +424,7 @@
 				9B19F3FF1F7CE1F3003B2807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
